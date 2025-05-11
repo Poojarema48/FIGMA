@@ -1,0 +1,9 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const ctaButtons = document.querySelectorAll('.cta-btn, .primary-btn');
+  
+  ctaButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      alert('Coming soon! Thanks for your interest.');
+    });
+  });
+});
